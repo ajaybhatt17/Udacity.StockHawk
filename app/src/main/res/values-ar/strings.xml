@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="action_example">مثال على العمل</string>
+
+    <string name="action_settings">إعدادات</string>
+    <string name="action_change_units">تغيير الوحدات</string>
+    <string name="symbol_search">البحث عن رمز</string>
+    <string name="content_test">البحث عن رمز السهم</string>
+    <string name="input_hint">إف ب</string>
+    <string name="input_prefill"></string>
+    <string name="widget_title">السوق اليوم</string>
+    <string name="network_toast">آه أوه! هذا التطبيق يتطلب وجود اتصال بالإنترنت</string>
+    <string name="error_msg">خطأ في جلب البيانات. حاول مرة أخرى!</string>
+    <string name="stock_detail_msg"> %1$s and %2$s تفاصيل الأسهم b/w التواريخ</string>
+    <string name="display_error_msg">غير قادر على عرض البيانات. حاول مرة أخرى!</string>
+    <string name="stock_not_found">لم يتم العثور على الأوراق المالية</string>
+    <string name="stock_already_msg">يتم حفظ هذا المخزون فعلا!</string>
+</resources>
