@@ -16,4 +16,7 @@
   <string name="display_error_msg">Not able to display data. Try Again!</string>
   <string name="stock_not_found">Stock Not Found</string>
   <string name="stock_already_msg">This stock is already saved!</string>
+  <string name="add_stock">Add Stock</string>
+  <string name="empty_stock_list">No Stock Added</string>
+
 </resources>

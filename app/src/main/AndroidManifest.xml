@@ -44,6 +44,7 @@
             </intent-filter>
         </service>
         <service android:name="com.sam_chordas.android.stockhawk.service.StockIntentService" />
+        <service android:name="com.sam_chordas.android.stockhawk.widget.WidgetIntentService" />
         <provider
             android:authorities="com.sam_chordas.android.stockhawk.data.QuoteProvider"
             android:name="com.sam_chordas.android.stockhawk.data.generated.QuoteProvider"
@@ -59,7 +60,7 @@
         </receiver>
 
         <service
-            android:name=".widget.WidgetIntentService"
+            android:name=".widget.StockWidgetService"
             android:exported="false"
             android:permission="android.permission.BIND_REMOTEVIEWS"/>
     </application>

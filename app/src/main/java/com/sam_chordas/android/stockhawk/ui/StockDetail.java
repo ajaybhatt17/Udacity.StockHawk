@@ -73,7 +73,6 @@ public class StockDetail extends AppCompatActivity {
                 try {
                     String s = Utils.fetchData(Utils.getStockDetailUrl(params[0], params[1], params[2]));
                     ResponseModel responseModel = new Gson().fromJson(s, ResponseModel.class);
-                    System.out.println(s);
                     return responseModel.getData().getResults();
                 } catch (IOException e) {
                     e.printStackTrace();
